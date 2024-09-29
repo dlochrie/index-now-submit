@@ -1,0 +1,25 @@
+{
+  "name": "index-now-submit",
+  "version": "0.0.1",
+  "description": "Scripts for submitting websites to search engines using the IndexNow API.",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "submit": "node dist/index.js",
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/xml2json": "^0.11.6",
+    "@types/yargs": "^17.0.33",
+    "prettier": "3.3.3",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.27.8",
+    "xml2json": "^0.7.1",
+    "yargs": "^17.7.2"
+  }
+}
