@@ -1,5 +1,5 @@
 {
-  "name": "index-now-submit",
+  "name": "@dlochrie/index-now-submit",
   "version": "0.0.1",
   "description": "Scripts for submitting websites to search engines using the IndexNow API.",
   "license": "ISC",
