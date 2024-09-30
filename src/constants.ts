@@ -31,23 +31,24 @@ export const RESPONSE_CODES: Record<number, ResponseCode> = {
 
 /**
  * Search Engines that support the IndexNow API.
+ * @see {@link https://www.indexnow.org/faq}
  * @const {string[]}
  */
 export const SEARCH_ENGINES = [
   'https://api.indexnow.org',
 
-  // Bing
+  // Microsoft Bing
   'https://www.bing.com',
-
-  // Google Not Supported
-  // 'https://www.google.com',
-
-  // Russian search engine
-  'https://yandex.com',
 
   // Korean search engine
   'https://searchadvisor.naver.com',
 
   // Czech search engine
   'https://search.seznam.cz',
+
+  // Russian search engine
+  'https://yandex.com',
+
+  // Misc
+  'https://indexnow.yep.com',
 ];
